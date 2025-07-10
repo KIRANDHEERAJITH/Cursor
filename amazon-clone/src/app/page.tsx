@@ -81,7 +81,7 @@ export default function Home() {
         {/* Today's Deals */}
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold text-gray-800">Today's Deals</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Today&apos;s Deals</h2>
             <button className="flex items-center text-blue-600 hover:text-blue-800 font-medium">
               See all deals
               <ChevronRight className="w-4 h-4 ml-1" />

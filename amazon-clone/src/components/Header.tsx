@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Search, ShoppingCart, Menu, MapPin, User } from 'lucide-react';
+import { Search, ShoppingCart, Menu, MapPin } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 
 interface HeaderProps {
@@ -134,7 +134,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
           Health & Beauty
         </Link>
         <Link href="/deals" className="whitespace-nowrap hover:text-yellow-400">
-          Today's Deals
+          Today&apos;s Deals
         </Link>
         <Link href="/prime" className="whitespace-nowrap hover:text-yellow-400">
           Prime
